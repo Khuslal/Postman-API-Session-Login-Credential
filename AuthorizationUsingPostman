@@ -1,0 +1,6 @@
+Step 1 : open postman
+Step 2 : create get request with a localhost url or api url (e.g https://places.googleapis.com)
+Step 3 : select authorization, check basic authentication or api key as per your requirement
+Step 4 : insert your username and password that is stored inside the database or static spring security password if not using database, 
+         for api, insert api key and value 
+Step 5 : click on Send, if the status is 200, you have successfully logged in as an authorized user with a unique session id.
